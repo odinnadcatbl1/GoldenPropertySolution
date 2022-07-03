@@ -5,4 +5,8 @@
     font-weight: 700;
     color: $secondary;
     text-align: center;
+
+    &--white {
+        color: white;
+    }
 }
