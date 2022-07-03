@@ -133,4 +133,10 @@
     font-size: 1.8rem;
     box-shadow: 4px 4px 8px 0 rgba(#17375F, 0.2);
     border-radius: 4.3rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background-color: white;
+        color: $secondary;
+    }
 }
