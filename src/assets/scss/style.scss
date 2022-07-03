@@ -8,7 +8,7 @@ html {
 body {
     background-color: white;
     font-family: $font;
-    color: $primary;
+    color: $secondary;
 }
 
 *,
@@ -19,7 +19,9 @@ body {
 
 /* Blocks */
 @import "blocks/container";
+@import "blocks/page";
 @import "blocks/header";
 @import "blocks/intro";
 @import "blocks/form";
+@import "blocks/benefits.scss";
 

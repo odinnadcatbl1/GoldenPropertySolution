@@ -348,7 +348,7 @@ html {
 body {
   background-color: white;
   font-family: "Montserrat", sans-serif;
-  color: #FFC633;
+  color: #24173D;
 }
 
 *,
@@ -364,6 +364,15 @@ body {
   margin: 0 auto;
   width: 100%;
   padding: 0 16rem;
+}
+
+.page__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #24173D;
+  text-align: center;
 }
 
 .header__inner {
@@ -593,4 +602,50 @@ body {
   font-weight: 200;
   font-family: inherit;
   color: #5C5C5C;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 7rem 0rem 4rem;
+}
+
+.benefits__container {
+  max-width: 1780px;
+  border: 5px double #000000;
+  border-radius: 2rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #EEEAF4;
+  position: relative;
+}
+.benefits__container .page__title {
+  position: absolute;
+  background-color: white;
+  padding: 0 3rem;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.benefits__list {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 5rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.benefits__list-item {
+  display: flex;
+  align-items: center;
+  padding: 5rem 10rem;
+}
+
+.benefits__text {
+  margin-left: 4rem;
+  font-size: 2.4rem;
+  font-weight: 300;
 }
