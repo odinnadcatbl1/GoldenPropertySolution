@@ -1,0 +1,89 @@
+.header {
+
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0rem 3rem 34rem;
+    width: 100%;
+}
+
+.header__logo {
+    position: relative;
+    height: 100%;
+}
+
+.header__logo-top {
+    position: absolute;
+    top: -0.3rem;
+
+    z-index: 1000;
+}
+
+.header__logo-bottom {
+    padding-top: 5rem;
+    padding-left: 7rem
+}
+
+.header__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    justify-content: flex-start;
+    font-family: $font;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: $secondary;
+    text-transform: uppercase;
+    padding: 0 3rem 3rem 1rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-left: solid 1.5px #3B393C;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.phone__logo {
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        opacity: 0.8
+    }   
+}
+
+.header__phone {
+    text-decoration: none;
+    color: $secondary;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+        opacity: 0.8
+    }
+}
+
+.header__button {
+    border: none;
+    background-color: $primary;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 3rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+        opacity: 0.8
+    }
+}

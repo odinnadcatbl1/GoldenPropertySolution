@@ -1,5 +1,23 @@
-body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+@import "vars";
+@import "./vendor/reset";
+
+html {
+    font-size: 62.5%;
 }
+
+body {
+    background-color: white;
+    font-family: $font;
+    color: $primary;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Blocks */
+@import "blocks/container";
+@import "blocks/header";
+
